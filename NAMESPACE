@@ -1,0 +1,12 @@
+useDynLib(coxsei,"ll","ll2")
+
+S3method(coxsei,default)
+S3method(print,coxsei)
+S3method(plot,coxsei)
+S3method(summary,coxsei)
+S3method(print,summary.coxsei)
+
+export(coxsei,coxsei.default,coxseiest,coxseifit.ex,
+       coxseiInt,coxseiest2,coxseiest3,coxseisim,
+       CumInt,Dens,Dist,Quant,Surv,RND)
+       
