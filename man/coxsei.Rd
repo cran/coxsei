@@ -14,7 +14,6 @@
   Fit a CoxSEI model to counting process data
 }
 \usage{
-## the .default and .coxsei in the following are not necessary
 coxsei(x,...)
 \method{coxsei}{default}(x,y,delta,id,par.init,m=2,mit=1000,tr=TRUE,
        method="L-BFGS-B",lower=c(rep(-Inf,ncol(x)),-Inf,0),
@@ -28,6 +27,7 @@ coxsei(x,...)
   \item{x}{a covariate matrix, or an object of class \code{coxsei}}
   \item{y}{a vector of observed times}
   \item{delta}{
+    a vector of event indicators: 1=event, 0=censoring
     %%     ~~Describe \code{delta} here~~
     
   }

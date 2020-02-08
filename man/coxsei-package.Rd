@@ -9,14 +9,6 @@ counting process data
 Fit the CoxSEI model using the partial likelihood method.
 }
 \details{
-\tabular{ll}{
-Package: \tab coxsei\cr
-Type: \tab Package\cr
-Version: \tab 0.1\cr
-Date: \tab 2015-02-24\cr
-License: \tab GPL (>=2)\cr
-LazyLoad: \tab yes\cr
-}
 To use the package, the data needs to be prepared into a data frame
 containing a column named \code{Y} for observed event times in ascending
 order of each individual process, a column named \code{delta} indicating

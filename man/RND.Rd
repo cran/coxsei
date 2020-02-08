@@ -44,11 +44,11 @@ RND(n, int, tol = .Machine$double.eps^0.5, epsabs = 1e-10, epsrel =
   \item{limit}{
     maximum number of iterations permitted by the integrator.
   }
-  \item{\dots}{
-    %%     ~~Describe \code{\dots} here~~
-    other variables to be passed to the underlying functions such as the
-    quantile functions etc. 
-}
+%%   \item{\dots}{
+%%     %%     ~~Describe \code{\dots} here~~
+%%     other variables to be passed to the underlying functions such as the
+%%     quantile functions etc. 
+%% }
 }
 
 \value{

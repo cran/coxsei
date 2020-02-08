@@ -1,10 +1,16 @@
-useDynLib(coxsei,"ll","ll2")
+useDynLib(coxsei,"ll","ll2",.registration=TRUE)
 
 S3method(coxsei,default)
 S3method(print,coxsei)
 S3method(plot,coxsei)
 S3method(summary,coxsei)
 S3method(print,summary.coxsei)
+
+importFrom("graphics", "plot")
+importFrom("stats", "approxfun", "coef", "integrate", "optim", "pnorm",
+           "printCoefmat", "runif", "stepfun")
+importFrom("utils", "tail")
+
 
 export(coxsei,coxsei.default,coxseiest,coxseifit.ex,
        coxseiInt,coxseiest2,coxseiest3,coxseisim,

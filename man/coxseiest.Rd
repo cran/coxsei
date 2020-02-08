@@ -103,7 +103,14 @@ instance,
 }
 \references{
   %% ~put references to the literature/web site here ~
-  coxsei paper
+  Feng Chen and Kani Chen. (2014). Modeling Event Clustering Using the m-Memory
+  Cox-Type
+  Self-Exciting Intensity Model. International Journal of Statistics and
+  Probability. 3(3): 126-137. doi:10.5539/ijsp.v3n3p126  URL:
+  http://dx.doi.org/10.5539/ijsp.v3n3p126
+
+  Feng Chen and Kani Chen. (2014). Case-cohort analysis of clusters of
+  recurrent events. 20(1): 1-15. doi: 10.1007/s10985-013-9275-3
 }
 \author{
   %%  ~~who you are~~
