@@ -70,7 +70,7 @@ RND(n, int, tol = .Machine$double.eps^0.5, epsabs = 1e-10, epsrel =
 
 \examples{
 set.seed(1)
-dat <- RND(100,int=function(x)x^2)
+dat <- RND(100,int=function(x)3*x^2)
 ks.test(dat,pweibull,shape=3) # p-value = 0.6058
 qqplot(dat,rweibull(100,shape=3))  
 }

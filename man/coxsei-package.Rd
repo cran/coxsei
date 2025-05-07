@@ -37,7 +37,4 @@ Maintainer: Feng Chen <feng.chen@unsw.edu.au>
 }
 \keyword{ package }
 \keyword{ survival}
-\seealso{
-\code{\link{survival}}
-}
 
